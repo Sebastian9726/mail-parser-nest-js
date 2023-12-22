@@ -35,7 +35,7 @@ The real challenge:
 
 3.  Step 3: Modifiy the request: s.Records[0].ses.receipt.virusVerdict.status == NOPASS
 
-![Alt text](image-3.png)
+![Alt text](image-4.png)
 
 
 # TODO: Tools implemented:
