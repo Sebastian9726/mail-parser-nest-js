@@ -16,8 +16,21 @@ If you want to learn more about creating good readme files then refer the follow
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
 
+# Challenge
+The easy one:
+1. Create a NEST.js project.
+2. Convert this JSON into a class.
+3. Use mapper library to map the above JSON to this structure.
+4. Create a controller with an endpoint that receives the first JSON and returns the second JSON as a response.
 
-# how does it work?
+The real challenge:
+1. Create a NEST.js project.
+2. Use mail-parser to parse the content of an email with attachments. A JSON file should be attached.
+3. Create a controller with an endpoint that receives the URL or path of an email file as a parameter.
+4. The response should be the JSON attached in the email in any of the following cases: as a file attachment, inside the body of the email as a link, or inside the body of the email as a link that leads to a webpage where there is a link that leads to the actual JSON.
+
+
+# how does it work The easy one: ?
 1.  Step 1: Check out the documentation in swagger about the endpoints:
 
 ![Alt text](image-1.png)
