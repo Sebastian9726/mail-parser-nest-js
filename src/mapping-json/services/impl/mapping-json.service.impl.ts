@@ -15,7 +15,6 @@ export class MappingJsonService implements IMappingJsonService {
 
   mapppingFields(createMappingJsonDto: EmailReceiptActionDto):TargetDto {
     try {
-  
       const response:TargetDto =  this.classMapper.map(
         createMappingJsonDto,
         EmailReceiptActionDto,
@@ -23,7 +22,7 @@ export class MappingJsonService implements IMappingJsonService {
       );
       return response
     } catch (error) {
-      throw new HttpException('Mensaje de error', HttpStatus.INTERNAL_SERVER_ERROR);
+      throw new HttpException('Error when the server IS trying to transform the input', HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
   }

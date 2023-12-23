@@ -38,10 +38,22 @@ The real challenge:
 ![Alt text](image-4.png)
 
 
+# how does it work The real challenge: ?
+
+1.  Step 1: Check out the documentation in swagger about the endpoints:
+
+![Alt text](image-7.png)
+2.  Step 2: Build a url beacuse I have this route C:/Users/Administrador/Documents/Test2.eml so I have to encode to URL-encoded format, so return this: C%3A%2FUsers%2FAdministrador%2FDocuments%2FTest2.eml at the end the url is: http://localhost:3000/mail-mapping/C%3A%2FUsers%2FAdministrador%2FDocuments%2FTest2.eml
+
+![Alt text](image-5.png)
+
+3.  Step 3: I put this step because I want to share my mail created
+
+![Alt text](image-6.png)
 # TODO: Tools implemented:
 1. Nest v10
-1.1.    Swagger
-1.2.    Express
-1.3.    Class validator
+1. 1.    Swagger
+1. 2.    Express
+1. 3.    Class validator
 2. It was implemented the solid principles
 
